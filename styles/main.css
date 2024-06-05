@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(177, 211, 255);
+    color: rgb(244, 228, 255);
+    padding: 1rem
+}
+    
+
+.card{
+    background-color: white;
+    color: pink;
+    height: 300px;
+    width: 300px;
+    display: inline-flex;
+    flex-direction: column-reverse;
+    margin: 0 1rem 1rem 0;
+    box-shadow: 1px 1px 4px rgb(231, 50, 50);
+    padding: 1rem;
+    position: relative;
+}
+.card .desc{
+    font-size: 0.8rem;
+}
+.card .title{
+    font-size: 1.2rem;
+}
+.card img.image{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    object-fit: contain;
+}
+.remove:hover{
+    text-decoration: underline;
+    color: lavender;
+}

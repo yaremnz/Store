@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Pencil",
+        "desc": "Wood lead pencil #2 with eraser.",
+        "price": 0.25,
+        "images": [
+            {
+                "name" : "default",
+                "path" : "./images/pencil.png"
+            },
+            {
+                "name" : "side",
+                "path" : "./images/pencil_side.png"
+            }
+        ]
+    },
+    {
+        "name": "Paper",
+        "desc": "8.5x11 recycled stock.",
+        "price": 2.50,
+        "images": [
+            {
+                "name" : "default",
+                "path" : "./images/paper.png"
+            },
+            {
+                "name" : "top",
+                "path" : "./images/paper_side.png"
+            }
+        ]
+    }
+]
